@@ -34,7 +34,7 @@ img {
     height: 20%;
     border: 20px;
 }
-
+/*comtrolhe do responcivel*/
 @media screen and (max-width: 768px) {
     img {
         max-width: 5%;
@@ -48,3 +48,4 @@ img {
     }
     
 }
+/*comtolho do leyate*/
