@@ -1,0 +1,91 @@
+/*comtrolhe do responcivel*/
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 5%;
+        height: auto;
+        border: 20px;
+    }
+
+    .button {
+        background-color: #f7eded;
+             color: rgb(182, 24, 24);
+                padding: 10px 20px;
+                     border: none;
+                          border-radius: 5px;
+                           cursor: pointer;
+                                text-decoration: none;
+                                       height: 200%;
+                                             text-align: center;
+                                       width: 100%;
+                                 font-size: 20px;
+                               animation: 200ms ease-in-out;
+                         color: #f31717;
+                    margin-bottom: 1%;
+             margin-top: 20px;
+        border: 20px; ;
+    }
+    .button:hover {
+       background-attachment: fixed;
+            cursor: pointer;
+                transform: scale(1.05);
+            transition: all 0.5s ease-in-out;
+         border-radius: 100px;
+    }
+    
+    .button-roda-pe {
+        background-color: #f7eded;
+             color: rgb(182, 24, 24);
+                padding: 10px 10px;
+                     border: none;
+                          border-radius: 5px;
+                           cursor: pointer;
+                                text-decoration: none;
+                                       height: 200%;
+                                       margin-left: -5%;
+                                             text-align: center;
+                                           text-align: center;
+                                       width: 100%;
+                                 font-size: 20px;
+                               animation: 200ms ease-in-out;
+                         color: #f31717;
+                    margin-bottom: 1%;
+             margin-top: 20px;
+        border: 20px;
+    }
+    .button-roda-pe:hover {
+         background-attachment: fixed;
+              cursor: pointer;
+                  transform: scale(1.10);
+              transition: all 0.3s ease-in-out;
+           border-radius: 100px;
+         }
+         .planos-pasico {
+            background-color:#4b4444;
+                     padding: 20px;
+                        border-radius: 5px;
+                             margin-top: 10px;
+                                width: 90%;
+                       height: 50%;
+            text-align: 30px;
+        }
+        .planos-intermediario {
+            background-color:#4b4444;
+                    padding: 20px;
+                    border-radius: 5px;
+                        margin-top: 11px;
+                         width: 90%;
+                     height: 50%;
+                text-align: 30px;
+        }
+        
+        .planos-Avançado {
+            background-color:#4b4444;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            width: 90%;
+            height: 50%;
+            text-align: 30px;
+        }
+
+

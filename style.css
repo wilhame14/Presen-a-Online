@@ -1,31 +1,7 @@
-.botao-contato { background:#161515;
-    height: 20px;
-    width: 220px;
-   font-size: 2px;
-    font-weight: bold;
-    animation: 200ms ease-in-out;
-    color: #f31717;
-    margin-bottom: 0%;
-    margin-top: 2px;
-    border: 20px; ;
-    }
-
-   
-.botao-contato:hover { 
-   background-attachment: fixed;
-    cursor: pointer;
-    box-shadow: 1 4px 8px rgba(0,0, 0, 0.1);
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    border-radius: 10px;
-    border: 10px solid #161515;
-}
-body {
-    background-color: #161515;
-    color: #e4dcdc;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+body{
+    background-color:#272626;
+ font-size: large;
+    color: #f7f7f7;
     margin: 0;
     padding: 0;
 }
@@ -35,16 +11,32 @@ img {
     border: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    img {
-        max-width: 5%;
-        height: auto;
-        border: 20px;
-    }
-    .botao-contato {
-        width: 100%;
-        font-size: 14px;
-        
-    }
-    
+.planos-pasico {
+   
+    background-color:#4b4444;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 25%;
+    height: 50%;
+    text-align: 30px;
+}
+.planos-intermediario {
+    background-color:#4b4444;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 11px;
+    width: 25%;
+    height: 50%;
+    text-align: 30px;
+}
+
+.planos-Avançado {
+    background-color:#4b4444;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 25%;
+    height: 50%;
+    text-align: 30px;
 }
