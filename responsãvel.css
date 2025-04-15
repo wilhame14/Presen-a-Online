@@ -22,7 +22,7 @@
                          color: #f31717;
                     margin-bottom: 1%;
              margin-top: 20px;
-        border: 20px; ;
+        border: 20px;
     }
     .button:hover {
        background-attachment: fixed;
@@ -87,5 +87,4 @@
             height: 50%;
             text-align: 30px;
         }
-
-
+    }
