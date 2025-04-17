@@ -1,15 +1,17 @@
 .descricao-3{
     background-color: #4b4444;
-    padding: 30px;
-      border-radius: 5px;
-      margin-left: 90%;
-      margin-top: -65%;
+         padding: 30px;
+           border-radius: 5px;
+           margin: 10%;
+            margin-left: 60%;
+         margin-top: -55%;
+      margin-right: 10px;
 
-width: 25%;
-     height: 120%;
+width: 35%;
+     height: 500px;
        text-align: center;
          color: #d3c7c7;
-    font-size: 20px;
+    font-size: 25px;
 font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -17,15 +19,16 @@ font-family: Georgia, 'Times New Roman', Times, serif
     background-color: #4b4444;
         padding: 30px;
           border-radius: 5px;
-            margin-top: -107%;
+                height: 120px;
+            margin-top: -90%;
          margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 15%;
 
-    width: 25%;
-         height: 120%;
+    width: 35%;
+         height: 600px;
            text-align: center;
              color: #d3c7c7;
-           font-size: 20px;
+           font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -94,9 +97,10 @@ body {
     background-color:#4b4444;
        padding: 20px;
         border-radius: 5px;
-            margin: 0%;
+            margin: 5px;
+            margin-top: 10px;
              width: 25%;
-               height: 120%;
+               height: 80%;
             text-align: 300px;
           color: #d3c7c7;
        font-size: 20px;
@@ -107,9 +111,10 @@ body {
     background-color:#4b4444;
        padding: 20px;
          border-radius: 5px;
+         margin: 5px;
                margin-top: 10px;
             width: 25%;
-          height: 120%;
+          height: 80%;
         text-align: 30px;
     color: rgb(238, 238, 237);
 font-size: 20px;
@@ -121,8 +126,9 @@ font-size: 20px;
               border-radius: 5px;
                 margin-top: 10px;
                     width: 25%;
-                height: 120%;
+                height: 80%;
              text-align: 30px;
         color: aliceblue;
     font-size: 20px;
 }
+
