@@ -2,9 +2,8 @@
     background-color: #4b4444;
     padding: 30px;
       border-radius: 5px;
-        margin-top: 10%;
-     margin-right: 10px;
-margin-left: 10px;
+      margin-left: 90%;
+      margin-top: -65%;
 
 width: 25%;
      height: 120%;
@@ -18,7 +17,7 @@ font-family: Georgia, 'Times New Roman', Times, serif
     background-color: #4b4444;
         padding: 30px;
           border-radius: 5px;
-            margin-top: 10%;
+            margin-top: -107%;
          margin-right: 10px;
     margin-left: 10px;
 
@@ -34,7 +33,7 @@ font-family: Georgia, 'Times New Roman', Times, serif
     background-color: #4b4444;
       padding: 30px;
          border-radius: 5px;
-          margin-top: 10%;
+          margin-top: 2,1%;
      margin-right: 10px;
     margin-left: 10px;
 
@@ -56,14 +55,22 @@ main {
     margin: 0px;
 }
 
+footer{
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
 header {
+    display: flex;
+    flex-direction: column;
     direction: inherit;
     background-color: #383535;
        padding: 20px;
         text-align: 100px;
          color: #dacdcd;
     font-size: 30px;
-          height: 505%;
+          height: 500px;
          width: 200%;
          margin: 1%;
        border-radius: 5px;
@@ -73,6 +80,7 @@ header {
 body {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: #383535;
        color: #ff0000;
         font-family: Arial, sans-serif;
@@ -82,6 +90,7 @@ body {
 }
 
 .planos {
+    
     background-color:#4b4444;
        padding: 20px;
         border-radius: 5px;
