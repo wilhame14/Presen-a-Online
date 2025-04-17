@@ -1,8 +1,78 @@
+.descricao-3{
+    background-color: #4b4444;
+    padding: 30px;
+      border-radius: 5px;
+        margin-top: 10%;
+     margin-right: 10px;
+margin-left: 10px;
+
+width: 25%;
+     height: 120%;
+       text-align: center;
+         color: #d3c7c7;
+    font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.descricao-2{
+    background-color: #4b4444;
+        padding: 30px;
+          border-radius: 5px;
+            margin-top: 10%;
+         margin-right: 10px;
+    margin-left: 10px;
+
+    width: 25%;
+         height: 120%;
+           text-align: center;
+             color: #d3c7c7;
+           font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.descricao{
+    background-color: #4b4444;
+      padding: 30px;
+         border-radius: 5px;
+          margin-top: 10%;
+     margin-right: 10px;
+    margin-left: 10px;
+
+    width: 25%;
+        height: 120%;
+         text-align: center;
+          color: #d3c7c7;
+      font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main {
+    display: flex;
+        flex-direction: row;
+          align-items: center;
+            justify-content: center;
+             height: 100vh;
+        background-color: #1a1a1a;
+    margin: 10px;
+}
+header {
+    background-color: #4b4444;
+       padding: 20px;
+        text-align: 10px;
+         color: #dacdcd;
+    font-size: 30px;
+          height: 500%;
+         width: 100%;
+       border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body {
-    background-color: #1a1a1a;
-       color: #353232;
+    display: flex;
+    flex-direction: row;
+    background-color: #383535;
+       color: #ff0000;
         font-family: Arial, sans-serif;
-          margin: 0;
+          margin: 1px;
        padding: 0;
     color: #fff;
 }
@@ -21,12 +91,12 @@ body {
 
 .planos-intermediario {
     background-color:#4b4444;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 10px;
-    width: 25%;
-    height: 120%;
-    text-align: 30px;
+       padding: 20px;
+         border-radius: 5px;
+               margin-top: 10px;
+            width: 25%;
+          height: 120%;
+        text-align: 30px;
     color: rgb(238, 238, 237);
 font-size: 20px;
 }
