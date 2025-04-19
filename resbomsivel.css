@@ -1,8 +1,9 @@
 @media screen and (max-width: 1440px) {
     body {
         background-image: url(s.s.s.\ marke.png);
-        background-size: 100%;
-        background-repeat: repeat;
+        background-color: azure;
+        
+        
     }
 
 body{
@@ -17,6 +18,7 @@ header{
 main{
     background-color: aqua;
     height: 100%;
+    width: 100%;
 
 }
 footer{
@@ -25,14 +27,24 @@ footer{
 .descricao{
     background-color: green;
     height: 10%;
-    width: 360px;
+    width: 755px;
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: -0%;
 }
 .descricao-2{
     background-color: chocolate;
+    width: 755px;
     margin-top: 50px;
     margin-left: 10px;
+    height: 250px;
+}
+.descricao-3{
+    background-color: rgb(243, 17, 130);
+    margin-top: 50px;
+    width: 750px;
+    margin-left: auto;
+    height: 250px;
+
 }
 
 }/*Fechamento do resdbosivel*/
