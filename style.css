@@ -1,5 +1,5 @@
 .descricao-3{
-    background-color: #4b4444;
+    background-color: #e91d1d;
          padding: 30px;
            border-radius: 5px;
            margin: 10%;
@@ -16,7 +16,7 @@ font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .descricao-2{
-    background-color: #4b4444;
+    background-color: #c91414;
         padding: 30px;
           border-radius: 5px;
                 height: 120px;
@@ -33,7 +33,7 @@ font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .descricao{
-    background-color: #4b4444;
+    background-color: #f70b0b;
       padding: 30px;
          border-radius: 5px;
           margin-top: 2,1%;
@@ -84,8 +84,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #383535;
-       color: #ff0000;
+    background-color: #14289e;
+     
         font-family: Arial, sans-serif;
           margin: 1px;
        padding: 0;

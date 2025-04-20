@@ -1,50 +1,111 @@
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1280.800px) {
     body {
         background-image: url(s.s.s.\ marke.png);
-        background-color: azure;
-        
+      
         
     }
 
 body{
-background-color: brown;
+background-color:blue;
 }
 header{
-    background-color: blue;
+    background-color:blue;
     display: flex;
     display: inline;
     height: 10%;
 }
 main{
-    background-color: aqua;
+    background-color: blue;
     height: 100%;
     width: 100%;
 
 }
 footer{
-    background-color: blueviolet;
+   background-color:blue;
+}
+    
+.lobo{
+    background-color: blue;
+    font-size: 40px;
+    height: 120px;
+    width: 801px;
+   margin-top: -90px;
+   margin-right: 10px;
 }
 .descricao{
     background-color: green;
-    height: 10%;
-    width: 755px;
-    margin-top: 50px;
-    margin-left: -0%;
+    height: 25%;/*altura*/
+    width: 800px;/*lagur*/
+    margin-top: 49px;/**/
+    margin-left: -0%;/**/
 }
 .descricao-2{
     background-color: chocolate;
-    width: 755px;
-    margin-top: 50px;
-    margin-left: 10px;
-    height: 250px;
+    width: 800px;/*lagur*/
+    margin-top: 8px;/**/
+    margin-left: 10px;/**/
+    height: 250px;/*altura*/
 }
 .descricao-3{
     background-color: rgb(243, 17, 130);
-    margin-top: 50px;
-    width: 750px;
-    margin-left: auto;
-    height: 250px;
+    margin-top: 8px;/**/
+    width: 800px;/*altura*/
+    margin-left: auto;/**/
+    height: 250px;/*altura*/
 
+}
+
+.planos{
+animation: 300ms ease-in-out;
+  transition: 0.3s;
+      background-color: rgb(62, 164, 253);
+         color: black;
+           margin-top: 20px;
+        height: 885px;
+      width: 785px;/*lagur*/
+    font-size: 50px;
+ margin-left: 1%;
+}
+.planos:hover{
+    transform: scale(1.05);
+        transition: 0.5s;
+             background-color: black;
+             color: #fff;       
+}
+
+.planos-intermediario{
+animation: 300ms ease-in-out;
+  transition: 0.3s;
+    background-color: rgb(62, 164, 253);
+         color: black;
+       margin-top: 20px;
+       height: 34%;
+     width: 785px;/*lagur*/
+ font-size: 50px;
+margin-left: 1%;
+}
+.planos-intermediario:hover{
+    transform: scale(1.05);
+        transition: 0.5s;
+             background-color: black;
+             color: #fff;
+}
+
+.planos-Avançado{
+animation: 300ms ease-in-out;
+ transition: 0.3s;
+    background-color: rgb(62, 164, 253);
+        margin-top: 10px;
+      height: 36%;
+    width: 785px;/*lagur*/
+ font-size: 50px;
+margin-left: 1%;
+}
+.planos-Avançado:hover{
+    transform: scale(1.05);
+        transition: 0.5s;
+             background-color: black;
+             color: #fff;   
 }
 
 }/*Fechamento do resdbosivel*/
