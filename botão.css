@@ -13,10 +13,10 @@
     margin-bottom: 2px;
 }
 .lulu:hover {
-    background-color: #cf0c0c;
+    background-color: #38cf51de;
            color: #fff;
                 transform: scale(1.05);
-                     transition: 0.5s;
+                     transition: 1,0ms;
            margin-bottom: 10;
     border-radius: 45px;
 } 

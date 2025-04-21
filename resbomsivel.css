@@ -1,88 +1,118 @@
 @media screen and (max-width: 1280.800px) {
     body {
         background-image: url(s.s.s.\ marke.png);
-      
+      background-color: rgb(87, 209, 209);
         
     }
 
 body{
-background-color:blue;
+
 }
 header{
-    background-color:blue;
+    background-color:rgb(166, 166, 238);
+    color: rgb(17, 15, 15);
     display: flex;
     display: inline;
     height: 10%;
+    margin: auto;
 }
 main{
-    background-color: blue;
-    height: 100%;
+    max-width: 800;
+    display: flex;
+  display: block;
+    background-color: rgb(23, 23, 182);
+    height: 10%;
     width: 100%;
-
+    margin: auto;
+    
 }
 footer{
-   background-color:blue;
+    display: flex;
+    display: inline;
+ width: auto;
+   background-color:rgb(207, 207, 230);
+   margin: 100%;
+   height: 10%;
+   margin: auto;
 }
     
 .lobo{
+    display: inline;
+    display: grid;
+ width: auto;
     background-color: blue;
-    font-size: 40px;
-    height: 120px;
-    width: 801px;
-   margin-top: -90px;
-   margin-right: 10px;
+    height: 12%;
+flex-wrap: wrap;
+   margin-top: -9%;
+   margin-inline-start: auto;
+   
 }
 .descricao{
+    display: inline;
+   display: grid;
+width: auto;
     background-color: green;
     height: 25%;/*altura*/
-    width: 800px;/*lagur*/
-    margin-top: 49px;/**/
-    margin-left: -0%;/**/
+    margin-top: 20px;/**/
+    margin-left:10px;/**/
 }
 .descricao-2{
+    display: inline;
+   display: grid;
+width: auto;
     background-color: chocolate;
-    width: 800px;/*lagur*/
     margin-top: 8px;/**/
     margin-left: 10px;/**/
-    height: 250px;/*altura*/
+    height: 25%;/*altura*/
 }
 .descricao-3{
+    max-width: fit-content;
+    display: inline;
+   display: grid;
+width: auto;
+height: 25%;
     background-color: rgb(243, 17, 130);
     margin-top: 8px;/**/
-    width: 800px;/*altura*/
-    margin-left: auto;/**/
-    height: 250px;/*altura*/
+    margin-left: 10px;/**/
+    
 
 }
 
 .planos{
-animation: 300ms ease-in-out;
+    display: inline;
+       display: grid;
+ width: auto;
+    height: 40%;
+ animation: 300ms ease-in-out;
   transition: 0.3s;
       background-color: rgb(62, 164, 253);
          color: black;
-           margin-top: 20px;
-        height: 885px;
-      width: 785px;/*lagur*/
-    font-size: 50px;
- margin-left: 1%;
+           margin-top: -89px;
+            border-radius: 10px;
+       font-size: 180%;
+    margin: 10px;
 }
 .planos:hover{
     transform: scale(1.05);
-        transition: 0.5s;
+        transition: 0.3s;
              background-color: black;
-             color: #fff;       
+             color: #fff; 
+             border-radius: 50px;      
 }
 
 .planos-intermediario{
-animation: 300ms ease-in-out;
+    display: inline;
+    display: grid;
+ width: auto;
+ height: 40%;
+ animation: 300ms ease-in-out;
   transition: 0.3s;
-    background-color: rgb(62, 164, 253);
+      background-color: rgb(62, 164, 253);
          color: black;
-       margin-top: 20px;
-       height: 34%;
-     width: 785px;/*lagur*/
- font-size: 50px;
-margin-left: 1%;
+           margin-top: -89px;
+            border-radius: 0px;
+    font-size: 200%;
+    margin: 20px;
 }
 .planos-intermediario:hover{
     transform: scale(1.05);
@@ -92,14 +122,18 @@ margin-left: 1%;
 }
 
 .planos-Avançado{
-animation: 300ms ease-in-out;
- transition: 0.3s;
-    background-color: rgb(62, 164, 253);
-        margin-top: 10px;
-      height: 36%;
-    width: 785px;/*lagur*/
- font-size: 50px;
-margin-left: 1%;
+    display: inline;
+    display: grid;
+ width: auto;
+ height: 40%;
+ animation: 300ms ease-in-out;
+  transition: 0.3s;
+      background-color: rgb(62, 164, 253);
+         color: black;
+           margin-top: -89px;
+            border-radius: 0px;
+    font-size: 200%;
+    margin: 20px;
 }
 .planos-Avançado:hover{
     transform: scale(1.05);
@@ -107,5 +141,28 @@ margin-left: 1%;
              background-color: black;
              color: #fff;   
 }
+
+.lulu {
+    background-color: #ebe2e2;
+          padding: 20px;
+             border-radius: 5px;
+                     margin-left: -100px;
+                    width: 95%;
+               height: 90px;
+                 text-align: 30px;
+                       margin: 1%;
+                  font-size: 20px;
+            animation: 300ms ease-in-out;
+         transition: 0.3s;
+    margin-bottom: 2px;
+}
+.lulu:hover {
+    background-color: #38cf51de;
+           color: #fff;
+                transform: scale(1.05);
+                     transition: 1,0ms;
+           margin-bottom: 10;
+    border-radius: 45px;
+} 
 
 }/*Fechamento do resdbosivel*/
