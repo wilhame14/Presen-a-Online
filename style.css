@@ -7,7 +7,7 @@ html{
   margin: 505px;
 }
 header{
-  background-color: aliceblue;
+  background-color: rgb(144, 195, 240);
   display: flex;
   display: flow-root;
   height: 500px;

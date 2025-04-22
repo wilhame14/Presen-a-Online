@@ -50,11 +50,11 @@ flex-wrap: wrap;
 .descricao{
     display: inline;
    display: grid;
-width: auto;
+white-space: 100px;
     background-color: green;
-    height: 25%;/*altura*/
+    height: auto;/*altura*/
     margin-top: 20px;/**/
-    margin-left:10px;/**/
+    margin: 3px;/**/
 }
 .descricao-2{
     display: inline;
