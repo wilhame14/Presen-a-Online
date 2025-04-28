@@ -1,15 +1,84 @@
-html{
-  background-color: rgb(182, 163, 137);
+
+header {
+  background-color:#e6e4e1; 
+  justify-content: flex-start; /* Alinha horizontalmente à esquerda */
+  align-items: flex-start; /* Alinha verticalmente ao topo */
+  font-family: 'Roboto', sans-serif; /* Define a fonte */
+  font-size: 40px; /* Tamanho do texto */
+  color: #1E3A8A; /* Cor do texto */
+  padding: 20px; /* Espaço interno */
+  height: auto; /* Define uma altura para o header (opcional) */
+width: auto;
+}
+
+h1 {
+  font-size: larger;
+  flex-direction: row-reverse;
+  margin: 0; /* Remove margens padrão para garantir alinhamento */
+}
+main{
+  display: flex;
+  flex-direction: reverse;
+  background-color:#e7e5de; 
+  height: auto;
+  width: auto;
 }
 .descricao{
-  display: flex;
-  background-color: blueviolet;
-  margin: 505px;
+  margin-top: auto;
+  margin: auto;
+  justify-content: flex-start; /* Alinha horizontalmente à esquerda */
+  align-items: flex-start; /* Alinha verticalmente ao topo */
+  font-family: 'Roboto', sans-serif; /* Define a fonte */
+  font-size: 30px; /* Tamanho do texto */
+  color: #1E3A8A; /* Cor do texto */
+  padding: 20px; /* Espaço interno */
+  height: auto; /* Define uma altura para o header (opcional) */
+  width: 900px;
 }
-header{
-  background-color: rgb(144, 195, 240);
-  display: flex;
-  display: flow-root;
-  height: 500px;
-  width: 500px;
+.descricao-2{/*so para lembra de tem ta coloca tudo dentra de sou uma descrição pra ver ser poupava tempo assim*/
+  margin-top: -200px;
+  margin: -0px;
+  justify-content: flex-start; /* Alinha horizontalmente à esquerda */
+  align-items: flex-start; /* Alinha verticalmente ao topo */
+  font-family: 'Roboto', sans-serif; /* Define a fonte */
+  font-size: 30px; /* Tamanho do texto */
+  color: #1E3A8A; /* Cor do texto */
+  padding: 20px; /* Espaço interno */
+  height: 800px; /* Define uma altura para o header (opcional) */
+  width: 700px;
+}
+.lang{
+  background-color: #DAA520;;
+display: flex;
+flex-direction:reverse;
+height: auto;
+width: 650px;
+margin: -5%;
+margin-top:auto;
+}
+
+.planos{
+  background-color: #1E3A8A;
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Espaço interno */
+  margin: 10px; /* Espaço entre os planos */
+ font-size: large;
+ font-size: 25px;
+}
+
+.planos-Intermediario{
+  background-color: #1E3A8A;
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Espaço interno */
+  margin: 10px; /* Espaço entre os planos */
+  font-size: large;
+  font-size: 25px;
+}
+.planos-Avançado{
+  background-color: #1E3A8A;
+  color: #fff; /* Cor do texto */
+  padding: 20px; /* Espaço interno */
+  margin: 10px; /* Espaço entre os planos */
+  font-size: large;
+  font-size: 25px;
 }
