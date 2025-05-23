@@ -82,3 +82,9 @@ margin-top:auto;
   font-size: large;
   font-size: 25px;
 }
+
+img{
+  width: 100px; /* Largura da imagem */
+  height: 100px; /* Altura da imagem */
+  margin: 10px; /* Espaço entre as imagens */
+}
