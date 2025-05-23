@@ -1,6 +1,6 @@
 
 header {
-  background-color:#e6e4e1; 
+  background-color:#252421; 
   justify-content: flex-start; /* Alinha horizontalmente à esquerda */
   align-items: flex-start; /* Alinha verticalmente ao topo */
   font-family: 'Roboto', sans-serif; /* Define a fonte */
@@ -48,7 +48,7 @@ main{
   width: 700px;
 }
 .lang{
-  background-color: #DAA520;;
+  background-color: #e69a04;;
 display: flex;
 flex-direction:reverse;
 height: auto;
